@@ -1,0 +1,25 @@
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+Semantic HTML means giving your content, items, and variables meaning and describing them clearly. Pages should read like news articles.
+
+2. Name two big differences between display: block; and display: inline;.
+
+Block element starts on a new line, inline is a continuation on the same line.
+Inline cannot have margin or padding on height, while block can have all box model properties.
+
+3. What are the 4 areas of the box model?
+
+Margin - invisible outside
+Border - outside
+Padding - invisible inside
+Content - inside
+
+4. While using flexbox, what axis does the following property work on: align-items: center?
+
+Cross-axis (y-axis)
+
+5. Explain why git is valuable to a team of developers.
+
+Git allows for versions to exist without having to run around handing files to your coworkers, or worse having a coworker having to put all the files together at the end of a project. It makes it easier to work on many parts of a project
+together with a team without having conflicts, and makes it easier for project managers to review and merge code. Git also supplies teams with non-repudiation, which is especially important in secure environments. If you pushed bad code, and
+said bad code broke the entire codebase - you cannot say it wasn't you and cats don't know how to git add, git commit, git push... yet. 
